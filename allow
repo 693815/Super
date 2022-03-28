@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <title>XXXY</title>
+	<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/gdaib-public.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/gdaib-nav.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/gdaib-public.css"/>
+    <link rel="stylesheet" type="text/css" href="css/gdaib-index.css"/>
+</head>
+<body><!------------------------------head------------------------------>
+<div class="gdaib-head">
+    <div class="gdaib-wrapper gdaib-clearfix">
+        <div class="gdaib-clearfix" id="gdaib-top">
+            <div class="gdaib-fr gdaib-clearfix" id="gdaib-top1"><p class="gdaib-fl"><a href="#" id="gdaib-login">登录</a><a href="#" id="gdaib-reg">注册</a>
+            </p>
+                <form action="#" method="get" class="gdaib-fl"><input type="text" placeholder="热门搜索：干花花瓶"/><input type="button"/></form>
+                <div class="gdaib-btn gdaib-fl gdaib-clearfix"><a href="gdaib-mygxin.html"><img src="img/gdaib-grzx.png"/></a><a href="#" class="gdaib-er1"><img src="img/gdaib-ewm.png"/></a><a href="gdaib-cart.html"><img src="img/gdaib-gwc.png"/></a>
+                    <p><a href="#"><img src="img/gdaib-smewm.png"/></a></p></div>
+            </div>
+        </div>
+        <ul class="gdaib-clearfix" id="gdaib-bott">
+            <li><a href="gdaib-index.html">首页</a></li>
+            <li><a href="#">所有商品</a>
+                <div class="gdaib-sList">
+                    <div class="gdaib-wrapper  gdaib-clearfix"><a href="gdaib-paint.html">
+                        <dl>
+                            <dt><img src="img/gdaib-nav1.jpg"/></dt>
+                            <dd>浓情欧式</dd>
+                        </dl>
+                    </a><a href="gdaib-paint.html">
+                        <dl>
+                            <dt><img src="img/gdaib-nav2.jpg"/></dt>
+                            <dd>浪漫美式</dd>
+                        </dl>
+                    </a><a href="gdaib-paint.html">
+                        <dl>
+                            <dt><img src="img/gdaib-nav3.jpg"/></dt>
+                            <dd>雅致中式</dd>
+                        </dl>
+                    </a><a href="gdaib-paint.html">
+                        <dl>
+                            <dt><img src="img/gdaib-nav6.jpg"/></dt>
+                            <dd>简约现代</dd>
+                        </dl>
+                    </a><a href="gdaib-paint.html">
+                        <dl>
+                            <dt><img src="img/gdaib-nav7.jpg"/></dt>
+                            <dd>创意装饰</dd>
+                        </dl>
+                    </a></div>
+                </div>
+            </li>
+			<li><a href="gdaib-idea.html">创意家居</a></li>
+            <li><a href="gdaib-flowerDer.html">装饰摆件</a></li>
+            <li><a href="gdaib-paint.html">墙式壁挂</a></li>
+            <li><a href="gdaib-perfume.html">蜡艺香薰</a></li>
+            <li><a href="gdaib-decoration.html">布艺软饰</a></li>
+        </ul>
+    </div>
+</div><!-------------------------banner--------------------------->
+<div class="block_home_slider">
+    <div id="home_slider" class="flexslider">
+        <ul class="slides">
+            <li>
+                <div class="slide"><img src="img/gdaib-banner2.jpg"/></div>
+            </li>
+            <li>
+                <div class="slide"><img src="img/gdaib-banner1.jpg"/></div>
+            </li>
+        </ul>
+    </div>
+</div><!------------------------------thImg------------------------------>
+<div class="gdaib-thImg">
+    <div class="gdaib-clearfix"><a><img src="img/gdaib-i1.jpg"/></a><a><img src="img/gdaib-i2.jpg"/></a><a><img src="img/gdaib-i3.jpg"/></a></div>
+</div><!------------------------------news------------------------------>
+<div class="gdaib-news">
+    <div class="gdaib-wrapper"><h2><img src="img/gdaib-ih1.jpg"/></h2>
+        <div class="gdaib-top gdaib-clearfix"><a href="gdaib-proDetail.html"><img src="img/gdaib-n1.jpg"/>
+            <p></p></a><a href="gdaib-proDetail.html"><img src="img/gdaib-n2.jpg"/>
+            <p></p></a><a href="gdaib-proDetail.html"><img src="img/gdaib-n3.jpg"/>
+            <p></p></a></div>
+        <div class="gdaib-bott gdaib-clearfix"><a href="proDetail.html"><img src="img/gdaib-n4.jpg"/>
+            <p></p></a><a href="gdaib-proDetail.html"><img src="img/gdaib-n5.jpg"/>
+            <p></p></a><a href="gdaib-proDetail.html"><img src="img/gdaib-n6.jpg"/>
+            <p></p></a></div>
+        <h2><img src="img/gdaib-ih2.jpg"/></h2>
+        <div class="gdaib-flower gdaib-clearfix gdaib-tran"><a href="gdaib-proDetail.html" class="gdaib-clearfix">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo1.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a><a href="gdaib-proDetail.html">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo2.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a><a href="gdaib-proDetail.html">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo3.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a></div>
+        <div class="gdaib-flower gdaib-clearfix gdaib-tran"><a href="gdaib-proDetail.html">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo4.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a><a href="gdaib-proDetail.html">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo5.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a><a href="gdaib-proDetail.html">
+            <dl>
+                <dt><span class="gdaib-abl"></span><img src="img/gdaib-flo6.jpg"/><span class="gdaib-abr"></span></dt>
+                <dd>【花艺】某花束</dd>
+                <dd><span>¥ 9.00</span></dd>
+            </dl>
+        </a></div>
+    </div>
+</div><!------------------------------ad------------------------------>
+<a href="#" class="gdaib-ad"><img src="img/gdaib-ib1.jpg"/></a>
+<!--返回顶部-->
+<div class="gdaib-gotop"><a href="gdaib-cart.html">
+    <dl>
+        <dt><img src="img/gdaib-gt1.png"/></dt>
+        <dd>去购<br/>物车</dd>
+    </dl>
+</a><a href="#" class="gdaib-dh">
+    <dl>
+        <dt><img src="img/gdaib-gt2.png"/></dt>
+        <dd>联系<br/>客服</dd>
+    </dl>
+</a><a href="gdaib-mygxin.html">
+    <dl>
+        <dt><img src="img/gdaib-gt3.png"/></dt>
+        <dd>个人<br/>中心</dd>
+    </dl>
+</a><a href="#" class="gdaib-toptop" style="display: none">
+    <dl>
+        <dt><img src="img/gdaib-gt4.png"/></dt>
+        <dd>返回<br/>顶部</dd>
+    </dl>
+</a>
+    <p>88888888</p></div><!-------------------login--------------------------><!--footer-->
+<div class="gdaib-footer">
+    <div class="gdaib-top">
+        <div class="gdaib-wrapper">
+            <div class="gdaib-clearfix"><a href="#2" class="gdaib-fl"><img src="img/gdaib-foot1.png"/></a><span class="gdaib-fl">7天无理由退货</span>
+            </div>
+            <div class="gdaib-clearfix"><a href="#2" class="gdaib-fl"><img src="img/gdaib-foot2.png"/></a><span class="gdaib-fl">15天免费换货</span>
+            </div>
+            <div class="gdaib-clearfix"><a href="#2" class="gdaib-fl"><img src="img/gdaib-foot3.png"/></a><span class="gdaib-fl">满599包邮</span>
+            </div>
+            <div class="gdaib-clearfix"><a href="#2" class="gdaib-fl"><img src="img/gdaib-foot4.png"/></a><span class="gdaib-fl">手机特色服务</span>
+            </div>
+        </div>
+    </div>
+    <p class="gdaib-dibu">广东农工商职业技术学院</p></div>
+
+<script type="text/javascript">$(function () {
+    $('#home_slider').flexslider({
+        animation: 'slide',
+        controlNav: true,
+        directionNav: true,
+        animationLoop: true,
+        slideshow: true,
+        slideshowSpeed: 2000,
+        useCSS: false
+    });
+});</script>
+</body>
+</html>decoration
